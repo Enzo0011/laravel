@@ -20,8 +20,8 @@ This is a simple Laravel application to manage a collection of books with CRUD f
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/USERNAME/REPOSITORY.git
-   cd REPOSITORY
+   git clone https://github.com/Enzo0011/laravel.git
+   cd laravel
    ```
 
 2. **Install dependencies:**
@@ -31,20 +31,20 @@ This is a simple Laravel application to manage a collection of books with CRUD f
     npm install
     ```
 
-Copy the .env file and set up your environment variables:
+3. **Copy the .env file and set up your environment variables:**
 
     ```bash
     cp .env.example .env
     ```
 
-Generate an application key:
+4. **Generate an application key:**
 
 
     ```bash
     php artisan key:generate
     ```
 
-Set up your database configuration in the .env file:
+5. **Set up your database configuration in the .env file:**
 
     ```
     DB_CONNECTION=mysql
@@ -55,13 +55,13 @@ Set up your database configuration in the .env file:
     DB_PASSWORD=your_database_password
     ```
 
-Run migrations to create the database tables:
+6. **Run migrations to create the database tables:**
 
     ```bash
     php artisan migrate
     ```
 
-Run the development server:
+7. **Run the development server:**
 
     ```bash
     php artisan serve
